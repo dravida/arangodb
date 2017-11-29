@@ -213,7 +213,8 @@ struct OptimizerRule {
 #endif
 
     // recognize that a RemoveNode can be moved to the shards
-    undistributeRemoveAfterEnumCollRule_pass10
+    undistributeRemoveAfterEnumCollRule_pass10,
+    applyOptimizeClusterLimitsToShardsRule
   };
 
 
